@@ -1,0 +1,19 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# project specific
+**/*.exe
+**/*.xls
+**/*.xlsx
+**/*.pdf
+**/*.log
+**/*.yml
+**/*.docx
+**/*.manifest
+**/*.spec
+!config.yml
+build/
+dist/
+VDF/
