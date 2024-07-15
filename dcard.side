@@ -1,0 +1,166 @@
+{
+  "id": "79a315ce-847d-430b-9b19-ac7f54a05020",
+  "version": "2.0",
+  "name": "dcard",
+  "url": "https://www.dcard.tw",
+  "tests": [{
+    "id": "a4a57b4f-f2dd-4bd2-bd61-8da0a47f5ab0",
+    "name": "dcard",
+    "commands": [{
+      "id": "2cf71e25-6544-4e68-9859-cf040936b2a1",
+      "comment": "",
+      "command": "open",
+      "target": "/f/tech_job/p/256016120",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2cff1283-ad2f-438d-9df2-331eb0de1225",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1280x680",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "256014e2-087f-498a-b397-b5ed5f1ae8fc",
+      "comment": "",
+      "command": "click",
+      "target": "css=.d_xe_29 > .d_a5_1p",
+      "targets": [
+        ["css=.d_xe_29 > .d_a5_1p", "css:finder"],
+        ["xpath=//div[@id='__next']/div/div/div[2]/a/span", "xpath:idRelative"],
+        ["xpath=//span", "xpath:position"],
+        ["xpath=//span[contains(.,'註冊 / 登入')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "18d97da0-ff5d-425b-8c93-422090665275",
+      "comment": "",
+      "command": "click",
+      "target": "css=.d_x9_2b",
+      "targets": [
+        ["css=.d_x9_2b", "css:finder"],
+        ["xpath=//label/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bf022852-009d-4600-9135-28b5e16b7836",
+      "comment": "",
+      "command": "click",
+      "target": "id=phone",
+      "targets": [
+        ["id=phone", "id"],
+        ["name=phone", "name"],
+        ["css=#phone", "css:finder"],
+        ["xpath=//input[@id='phone']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3926d822-2389-4f9d-8e46-ad4ffee2e5a9",
+      "comment": "",
+      "command": "type",
+      "target": "id=phone",
+      "targets": [
+        ["id=phone", "id"],
+        ["name=phone", "name"],
+        ["css=#phone", "css:finder"],
+        ["xpath=//input[@id='phone']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "0978095972"
+    }, {
+      "id": "29ca1c0b-e207-44d8-9d44-2b30f93a2d29",
+      "comment": "",
+      "command": "click",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0e97446b-86c3-4dd9-a284-f8bfc2a2b19e",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": "kittyhealey520"
+    }, {
+      "id": "e2922945-09e2-4d16-9baf-93f4a8ea1b7b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.d_20_1x:nth-child(2) > .d_1rdxplk_1ovwmvs:nth-child(1)",
+      "targets": [
+        ["css=.d_20_1x:nth-child(2) > .d_1rdxplk_1ovwmvs:nth-child(1)", "css:finder"],
+        ["xpath=//button/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "79aa9f4b-8088-4cab-a7b3-aa17c9a91b7a",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.d_20_1x:nth-child(2) > .d_1rdxplk_1ovwmvs:nth-child(1)",
+      "targets": [
+        ["css=.d_20_1x:nth-child(2) > .d_1rdxplk_1ovwmvs:nth-child(1)", "css:finder"],
+        ["xpath=//button/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c5020f60-e0f2-49a9-8fee-c3ef427e6ef2",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.d_20_1x:nth-child(2) > .d_1rdxplk_1ovwmvs:nth-child(1)",
+      "targets": [
+        ["css=.d_20_1x:nth-child(2) > .d_1rdxplk_1ovwmvs:nth-child(1)", "css:finder"],
+        ["xpath=//button/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2e43a444-a6b9-434c-9f14-1e69ce3db69f",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,722)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a3275886-a604-4dff-a192-8848137f8f92",
+      "comment": "",
+      "command": "click",
+      "target": "css=.d_49_y7yda5 > .d_20_1x:nth-child(2) > .d_1rdxplk_1ovwmvs",
+      "targets": [
+        ["css=.d_49_y7yda5 > .d_20_1x:nth-child(2) > .d_1rdxplk_1ovwmvs", "css:finder"],
+        ["xpath=//div[@id='__next']/div[2]/div[2]/div/div/div/div/div[6]/div/div/div/div/button[2]/div", "xpath:idRelative"],
+        ["xpath=//button[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "394d08f6-ddd4-44d0-9d64-6bef3e1b1423",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.d_2l_cp6n8n:nth-child(5) .jsx-b9221a0dfa7d90c6",
+      "targets": [
+        ["css=.d_2l_cp6n8n:nth-child(5) .jsx-b9221a0dfa7d90c6", "css:finder"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "9c29f5a7-e0a1-4465-a011-9b6cf01102b7",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["a4a57b4f-f2dd-4bd2-bd61-8da0a47f5ab0"]
+  }],
+  "urls": ["https://www.dcard.tw/"],
+  "plugins": []
+}
